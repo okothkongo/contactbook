@@ -81,5 +81,7 @@ test:
 production:
   <<: *default
   database: contactbook_production
-  username: contactbook
-  password: <%= ENV['CONTACTBOOK_DATABASE_PASSWORD'] %>
+  username: contactbook  
+  password: linda123!
+  host: "127.0.0.1"
+  
